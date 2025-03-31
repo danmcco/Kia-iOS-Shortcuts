@@ -9,6 +9,7 @@ app = Flask(__name__)
 USERNAME = os.environ.get('andrew.spaulding65@gmail.com')
 PASSWORD = os.environ.get('Banana14111411!')
 PIN = os.environ.get('6501')
+SECRET_KEY = os.environ.get('6515')
 
 if USERNAME is None or PASSWORD is None or PIN is None:
     raise ValueError("Missing credentials! Check your environment variables.")
