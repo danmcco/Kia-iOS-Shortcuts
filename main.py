@@ -6,8 +6,8 @@ from hyundai_kia_connect_api.exceptions import AuthenticationError
 app = Flask(__name__)
 
 # Get credentials from environment variables
-USERNAME = os.environ.get('andrew.spaulding65@gmail.com')
-PASSWORD = os.environ.get('Banana14111411!')
+USERNAME = os.environ.get('kathymcco@hotmail.com')
+PASSWORD = os.environ.get('Kathymcco1102')
 PIN = os.environ.get('6501')
 SECRET_KEY = os.environ.get('6515')
 
