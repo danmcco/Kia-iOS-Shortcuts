@@ -8,15 +8,15 @@ app = Flask(__name__)
 # Get credentials from environment variables
 USERNAME = os.environ.get('kathymcco@hotmail.com')
 PASSWORD = os.environ.get('Kathymcco1102')
-PIN = os.environ.get('6501')
-SECRET_KEY = os.environ.get('6515')
+PIN = os.environ.get('1453')
+SECRET_KEY = os.environ.get('1453')
 
 if USERNAME is None or PASSWORD is None or PIN is None:
     raise ValueError("Missing credentials! Check your environment variables.")
 
 # Initialize Vehicle Manager
 vehicle_manager = VehicleManager(
-    region=3,  # North America region
+    region=2,  # Canada region
     brand=1,   # KIA brand
     username=USERNAME,
     password=PASSWORD,
